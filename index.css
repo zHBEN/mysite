@@ -1,0 +1,32 @@
+    .sunzi {
+        background: green;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+    }
+
+    #baba {
+        background-color: chocolate;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .yeye {
+        text-align: center;
+        background-color: azure;
+    }
+
+    body {
+        margin: 0;
+        padding: 0
+    }
+
+    div {
+        border: 4px;
+    }
+
+.yeye {
+
+}

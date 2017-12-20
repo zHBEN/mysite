@@ -1,0 +1,87 @@
+a {
+    font-size: 36px;
+    color: darkcyan;
+    width:10px;
+    height: 50px;
+
+
+}
+
+a :link {
+    text-decoration: none
+}
+
+a :visited {
+    text-decoration: none
+}
+
+a :active {
+    text-decoration: none
+}
+
+.menu {
+    width: 400px;
+    height: 400px;
+    color: cornflowerblue;
+    background-color: blueviolet;
+
+    text-align: center;
+    line-height: 72px;
+    overflow: hidden;
+
+}
+
+.menu:hover {
+    background: #a00;
+    color: #fff;
+
+}
+
+.menu:active {
+    background: #5c0000;
+    color: blueviolet;
+}
+
+.menuText {
+
+    position: relative;
+    top: 16px;
+    height: 68px;
+    display: inline-block;
+    background-color: aqua;
+    text-decoration: none;
+    text-align: center
+}
+
+.menuTextUp {
+    top: 116px
+}
+
+.menuTextDown {
+    top: 200px height: 68px;
+}
+
+.menuText:hover {
+    animation: moveUp100 2s 2;
+
+}
+
+@keyframes moveUp100 {
+    from {
+        top: 0;
+    }
+    to {
+        top: -100px;
+    }
+
+}
+.menuText {
+    width: 200px;
+    height: 200px;
+    background: red;
+    color: aquamarine;
+    margin: 30px;
+    padding: 10px;
+    border: 10px solid yellow;
+
+}
